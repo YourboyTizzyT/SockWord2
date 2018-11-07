@@ -83,4 +83,8 @@ public class ScreenListener {
     public void unregisterListener (){
         context.unregisterReceiver(mScreenReceiver);
     }
+    /**
+     * 如何使用gitHub？？
+     * 测试一下
+     */
 }
