@@ -83,7 +83,4 @@ public class ScreenListener {
     public void unregisterListener (){
         context.unregisterReceiver(mScreenReceiver);
     }
-    /**
-     * 实现主界面功能
-     */
 }
