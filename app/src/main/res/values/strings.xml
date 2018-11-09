@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SockWord2</string>
+    <string name="title_1"> 复习</string>
+    <string name="title_2">设置</string>
+    <string name="title_3">错题库</string>
+    <string name="title_4">娱乐</string>
+    <string name="button_1"> 复习</string>
+    <string name="button_2">设置</string>
+    <string name="button_3">错题库</string>
+    <string name="button_4">娱乐</string>
+    <string name="text_1">Test</string>
 </resources>

@@ -67,7 +67,10 @@ public class StudyFragment extends Fragment{
         //从数据库获取到这条英文数据
         wisdomEnglish.setText(datas.get(i).getEnglish());
         wisdomChina.setText(datas.get(i).getChina());
-        setText();
+        alreadyMasteredText.setText(sharedPreferences.getInt("alreadyMastered",0)+"");
+        alreadyStudyText.setText(sharedPreferences.getInt("alreadyStudy",0)+"");
+        wrongText.setText(sharedPreferences.getInt("wrong",0)+"");
+
     }
     private void setText(){
         alreadyMasteredText.setText(sharedPreferences.getInt("alreadyMastered",0)+"");
